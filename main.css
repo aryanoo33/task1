@@ -1,0 +1,79 @@
+h3.inline{
+    display: inline;
+    margin-right: 10px;
+}
+h3{
+    color:rgb(5, 5, 9);
+}
+.img1:hover .text {
+    opacity: 1;
+}
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .text {
+    font-size: 25px;
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.389);
+    color:rgb(239, 242, 244);
+    text-align: center;
+    position: relative;
+    top: -75px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .txt{
+    font-size: 18px;
+    color:rgb(5, 6, 7);
+    text-align: center;
+  }
+  .line1,.line2{
+    font-weight: bold;
+    color:rgb(9, 12, 14);
+    text-align: center;
+  }
+  .txt2,.txt5{
+    font-size:32px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+  }
+.img3,.img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:70px;
+  }
+  .txt3,.txt4
+  {
+    font-size:14px;
+    padding-left: 850px;
+    position: relative;  /* Make position relative */
+    top: -95px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;  /* Center the entire gallery on the page */
+    max-width: 800px;   /* Set a maximum width for the gallery */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
